@@ -1,1 +1,1 @@
- a script that generates the assembly code (Intel syntax) of a C code and save it in an output file
+a C program that prints exactly on a newline to the standard error
