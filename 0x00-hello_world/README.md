@@ -1,1 +1,1 @@
- a C program that prints exactly of a text
+a C program that prints exactly with proper grammar
