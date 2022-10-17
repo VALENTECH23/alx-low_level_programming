@@ -1,1 +1,1 @@
-to print whether the number stored in the variable n is positive or negative
+to print the last digit of the number stored in the variable n
