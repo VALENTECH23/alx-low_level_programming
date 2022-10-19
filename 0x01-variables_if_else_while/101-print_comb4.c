@@ -11,23 +11,26 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			if (i < j && j < m)
+			for (m = '0'; m <= '9'; m++)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(m);
-				if (i == '7' && j == '8' && m == '9')
-				{
-					break;
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
+				if (i < j && j < m)
+				{	
+					putchar(i);
+					putchar(j);
+					putchar(m);
+					if (i == '7' && j == '8' && m == '9')
+					{
+						break;
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 	}
 	putchar ('\n');
-	return (0);
+			return (0);
 }
